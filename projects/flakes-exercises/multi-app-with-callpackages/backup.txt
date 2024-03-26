@@ -1,0 +1,22 @@
+
+
+#   let
+#       systems = [ "x86_64-linux" "x86_64-darwin" ];
+#   in
+#     {
+
+#       packages = flake-utils.lib.eachSystem systems (system:
+#                         let
+#                             pkgs = import nixpkgs { inherit system; };
+#                         in
+#                         {
+#                             default = import ./apps/default { pkgs = pkgs;};
+#                             defaultalt = import ./apps/defaultalt {pkgs = pkgs;};
+#                             defaultfile = import ./apps/defaultfile {pkgs = pkgs;};
+#                             message = import ./apps/message { version = "v3.0"; pkgs = pkgs;};
+#                             nixapp = import ./apps/nixapp {pkgs = pkgs;};
+#                             testapp = import ./apps/testapp {version = "v2.0"; pkgs = pkgs;};
+#                         }
+#       );
+
+#    };
