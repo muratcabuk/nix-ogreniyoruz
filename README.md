@@ -12,3 +12,5 @@
 12. [NixOs Module ve Option Kullanımı](11.Nix-Nixos-Modules-Options.md)
 13. [NixOs Kurulumu ve Konfigürasyonu](12.Nix-NixOs-Configuration.md)
 14. [NixOs'u Cloud ve Uzak Ortamlara Deploy Etmek](13.Nix-With-NixOS-Iso-Docker-Cloud.md)
+
+
